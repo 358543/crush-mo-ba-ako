@@ -1,3 +1,4 @@
+/* General Styles */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -38,10 +39,12 @@ button#no-btn {
   color: black;
 }
 
+/* Hidden Elements */
 .hidden {
   display: none;
 }
 
+/* Message Section */
 #message {
   margin-top: 30px;
 }
@@ -53,6 +56,9 @@ video {
   margin-top: 20px;
 }
 
-audio {
+.gif {
   margin-top: 20px;
-  }
+  width: 80%;
+  max-width: 400px;
+  border-radius: 10px;
+}
